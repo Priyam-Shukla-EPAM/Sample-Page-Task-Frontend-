@@ -1,0 +1,276 @@
+
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  /**font-family: Arial, Helvetica, sans-serif;**/
+}
+
+.container{
+  /**margin: 10px;**/
+  border: 2px solid #29465B;
+}
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #29465B;
+  display: inline-block;
+  width: 100%;
+  align-items: centre;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+.topnav a:hover {
+  background-color: #29465B;
+  color: white;
+}
+
+
+
+.topnav .search-container {
+  float: right;
+
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #43C6DB;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #43C6DB;
+}
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0; 
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #29465B;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+p{
+  float: right;
+  color: white;
+  margin-right: 10px;
+}
+
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+.dropdown-content a:hover {
+  background-color: #29465B;
+  color: white;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.icon-bar {
+  width: 70px; 
+  background-color: #29465B;
+  margin-top: 0px;
+}
+
+.icon-bar a {
+  display: block; 
+  text-align: center; 
+  padding: 10px; 
+  transition: all 0.3s ease; 
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #29465B; 
+}
+
+.active {
+  background-color: #29465B; 
+}
+select {
+  background-color: white;
+  border: none;
+  padding: 6px;
+  margin: 7px;
+  width: 20%;
+  height: 33px;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+  float: right;
+  outline: none;
+}
+
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  select{
+    float: left;
+    width: 100%;
+  }
+  .topnav a,.topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: centre;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
+ 
+ 
+.main {
+      position:absolute;
+      top: 55px;
+      height:auto;
+      right:10px;
+      left: 80px;
+      width:90%;
+      overflow:hidden;
+        opacity:1;
+        background-color: rgb(245, 242, 239);
+      }
+      .form1 .main1 .main1-nav ul
+      {
+         height: -30px;
+      }  
+  .form1 .main1 .main1-nav ul li{
+  display: inline-block; 
+  }
+  .form1 .main1 .main-table tr{
+      padding: 0%;
+      margin: 0%;
+  }
+  .form1 .main1 .main-table td{
+      display: inline-block; 
+  }
+.Bottom-section{
+  position:absolute;
+      top: 175px;
+      height:auto;
+      right:10px;
+      left: 80px;
+      width:50%;
+      display: inline;
+}
+.main-table-1{
+  margin-left: -6px;
+}
+.main-table-1 tr {
+  display: inline-block;
+  margin-right: auto;
+}
+.main-table-1 td{
+  padding: 0%;
+  margin: 0%;
+}
+.Final-Section{
+  position:absolute;
+  top: 620px;
+  height:auto;
+  right:10px;
+  left: 80px;
+  width:50%;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-left: 100px;
+  cursor: pointer;
+}
+.button1 {background-color: #348bd3; padding: 15px 32px;} 
+.button2 {background-color: #fdda68; padding: 15px 32px;} 
+
+.main-table3{
+  margin-left: 668px;
+display: inline-block;
+}
+
+.right-section{
+  
+  position: relative;
+  top: -3.55px;
+  margin-left: 59px;
+}
+
+.bottom-corner{
+  position: relative;
+
+}
+
+.main-table4{
+  margin-left: 720px;
+  display: inline-block;
+}
